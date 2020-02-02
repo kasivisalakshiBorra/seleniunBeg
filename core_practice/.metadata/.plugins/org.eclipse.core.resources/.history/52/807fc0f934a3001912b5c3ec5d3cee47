@@ -1,0 +1,23 @@
+package core_practice;
+
+import java.util.Vector;
+
+public class VectorEg {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student(10, "Visala");
+		//String msg = s1.displayDetails();
+		
+		//System.out.println(msg);
+		
+		Vector<Student> obj = new Vector();
+//		obj.addElement("xx");
+//		obj.addElement(12);
+		obj.addElement(s1);
+		Object a1 = obj.get(0);
+		Student s2= (Student)a1;
+		System.out.println(s2.displayDetails());
+		
+	}
+}

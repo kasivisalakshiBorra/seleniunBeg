@@ -1,0 +1,20 @@
+package core_practice;
+
+import java.util.*;
+
+public class listEg {
+public static void main(String[] args) {
+	List data = new ArrayList();
+	data.add("hi");
+	data.add("hello");
+	System.out.println(data);
+	Iterator it =data.iterator();
+	while(it.hasNext())
+	{	
+	
+		Object obj = it.next();
+		System.out.println(obj);
+		
+}
+}
+}

@@ -1,0 +1,13 @@
+package methodsEg;
+
+public class ArgEGSop {
+
+	void m1(byte b)
+	{
+		System.out.println("inside byte method");
+	}
+	void m1(short s)
+	{
+		System.out.println("inside short method");
+	}
+}

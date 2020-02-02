@@ -1,0 +1,32 @@
+package threadspractise;
+
+public class Lab1298 {
+	public static void main(String[] args) 
+	{
+//		MyThread t1 = new MyThread();
+//		MyThread t2 = new MyThread(); 
+		//lab1299
+//		MyThreadImp t1 = new MyThreadImp();
+//		MyThreadImp t2 = new MyThreadImp();
+		//1300
+//		MyThread t1 = new MyThread("Visu");
+//		MyThread t2 = new MyThread("JCL");
+		//lab-1301
+//		MyThreadImp t1 = new MyThreadImp("one");
+//		MyThreadImp t2 = new MyThreadImp("Two");
+		//lab-1302
+		
+//		ThreadGroup tg=new ThreadGroup("group1");
+//		MyThread t1 = new MyThread(tg,"Visu");
+//		ThreadGroup tg2=new ThreadGroup("group2");
+//		MyThread t2 = new MyThread(tg2,"JCL");
+		
+		ThreadGroup tg=new ThreadGroup("group1");
+		MyThreadImp t1 = new MyThreadImp(tg,"Visu");
+	//	ThreadGroup tg2=new ThreadGroup("group2");
+		MyThreadImp t2 = new MyThreadImp(tg,"JCL");
+		
+		
+		
+		}
+}

@@ -1,0 +1,40 @@
+package threadspractise;
+
+public class MyThreadImp implements Runnable{
+//lab1297
+//	public void run() 
+//	{
+//		Thread th = Thread.currentThread(); 
+//		for (int i = 1; i <= 10; i++)
+//		{
+//			System.out.println(th.getName()+" - value is :" + i); 
+//			try
+//			{
+//				Thread.sleep(500);
+//			}
+//			catch(Exception e)
+//			{
+//				e.printStackTrace();
+//			}
+//		}
+//		}
+	
+	//----------------------------------------------
+	MyThreadImp(ThreadGroup tg,String tname)
+	{
+		//start();
+		Thread t= new Thread(tg,this,tname);
+		t.start();
+		} 
+	public void run()
+	{
+		Thread th = Thread.currentThread();
+		ThreadGroup tg= th.getThreadGroup();
+		System.out.println("Thread Name :"+th.getName()); 
+		System.out.println("Thread Group Name :"+tg.getName());
+		}
+	}
+	
+	
+	
+

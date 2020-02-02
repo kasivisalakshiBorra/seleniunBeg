@@ -1,0 +1,30 @@
+package methodsEg;
+
+public class VarArg {
+//void sum(int arr[])
+//{
+//	System.out.println("-- show(int[])");
+//	System.out.println("Length :" + arr.length);
+//	int s=0;
+//	for (int a : arr) {
+//	s = s + a;
+//}
+//	System.out.println("Sum is :"+s);
+//}
+	
+	void sum(int... arr)
+	{
+		System.out.println("-- show(int[])");
+		System.out.println("Length :" + arr.length);
+		int s=0;
+		for (int a : arr) {
+		s = s + a;
+	}
+		System.out.println("Sum is :"+s);
+	}
+
+	void sum(String... arr)
+	{
+		System.out.println("Inside string args");
+	}
+}

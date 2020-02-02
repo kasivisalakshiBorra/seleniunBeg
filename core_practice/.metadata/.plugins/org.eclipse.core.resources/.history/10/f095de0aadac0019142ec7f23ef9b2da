@@ -1,0 +1,10 @@
+package methodsEg;
+
+public class MethodTest {
+public static void main(String[] args) {
+	
+	Student s1 =new Student();
+	s1.setage(10);
+	System.out.println(s1.age);
+}
+}

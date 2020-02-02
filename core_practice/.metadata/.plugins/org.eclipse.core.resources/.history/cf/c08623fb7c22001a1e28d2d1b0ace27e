@@ -1,0 +1,21 @@
+package core_practice;
+import java.util.*;
+
+public class collections1{
+	
+	public static void main(String[] args)
+	{
+//		Collection<String> data = new ArrayList<>();
+	//	ArrayList data =new ArrayList();//Allow Duplicates
+		//LinkedList data= new LinkedList();//Allow Duplicates
+		HashSet data=new HashSet();//1)Not Allow duplicates 2)It maintain Alphabatical order.
+		System.out.println("Checking size:" +data.size());
+		System.out.println("Checking :" +data.isEmpty());
+//		data.add("Ram");
+//		data.add("Ram");
+//		data.add("Jhon");
+		System.out.println(data);
+		System.out.println("Checking size:" +data.size());
+		System.out.println("Checking :" +data.isEmpty());	
+	}
+}

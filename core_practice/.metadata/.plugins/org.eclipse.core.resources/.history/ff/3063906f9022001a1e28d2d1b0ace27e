@@ -1,0 +1,68 @@
+package core_practice;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class collections1{
+	
+	public static void main(String[] args)
+	{
+//		Collection<String> data = new ArrayList<>();
+	//	ArrayList data =new ArrayList();//Allow Duplicates
+		//LinkedList data= new LinkedList();//Allow Duplicates
+		//HashSet data=new HashSet();//1)Not Allow duplicates 2)It maintain Alphabatical order but not constrain.3)It maintain number order but not constrain.(3,14)
+		//4)Hashset is heterogeneous,It allows any kind of data.
+		//5)Hashset allows null values.(o/p::[null, Jhon, Ram]). however if you insert more than one nulls it 
+		//would still return only one null value.(o/p::[null, Ram])
+
+		//LinkedHashSet data =new LinkedHashSet();//1)Not Allow duplicates.2)It place in insertion order only.
+		TreeSet data=new TreeSet();
+		//1)Treeset is homogeneous means allow only same type of data while Hashset is heterogeneous
+		//2)It maintain sorted order.It is not allowing null values get NullPointerException.
+		System.out.println("Checking size:" +data.size());
+		System.out.println("Checking :" +data.isEmpty());
+		data.add("Ram");
+		data.add("Cat");
+		data.add("Aisu");
+//		data.add(14);
+//		data.add(3);
+//		data.add(3);
+		
+		//System.out.println(data);
+		System.out.println("Checking size:" +data.size());
+		//System.out.println("Checking :" +data.isEmpty());	
+		Iterator it=data.iterator();
+		while(it.hasNext()) {
+			 System.out.print(it.next() + ", "); 
+System.out.println();
+		}
+		
+		HashMap<Integer, String> map=new HashMap<Integer, String>();
+		map.put(1, "visu");
+		map.put(3, "deepu");
+		map.put(2, "mom");
+		map.put(5, "sanju");
+		map.put(4, "dad");
+		
+		  //Iterator ite = map.entrySet().iterator();
+//		  while(ite.hasNext()) {
+//			  Map.Entry obj= (Entry) ite.next();
+//			  System.out.println(obj.getKey());
+//			 
+//			  System.out.println(obj.getValue());
+		
+//		  }
+		for (Map.Entry<Integer, String> obj : map.entrySet()) {
+		  {
+			  System.out.println(obj.getKey());
+//				 
+			  System.out.println(obj.getValue());
+		  }
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="core_practice.InheritanceB_Eg"/>
+<fullyQualifiedTypeName name="core_practice.InheritanceA_Eg"/>
+<fullyQualifiedTypeName name="com.practice.core.constr.Ex2"/>
+<fullyQualifiedTypeName name="core_practice.Student"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector"/>
+<fullyQualifiedTypeName name="javax.xml.validation.SchemaFactoryConfigurationError"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="core_practice.InstanceVariableEg"/>
+<fullyQualifiedTypeName name="core_practice.StaticVarEg"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.Block"/>
+<fullyQualifiedTypeName name="core_practice.BlockEg1"/>
+<fullyQualifiedTypeName name="core_practice.BlockEg"/>
+<fullyQualifiedTypeName name="core_practice.ClassAB"/>
+<fullyQualifiedTypeName name="core_practice.ClassB"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="p2.Xyz"/>
+<fullyQualifiedTypeName name="p1.Hello"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="Syncronizationthread.Hello"/>
+</qualifiedTypeNameHistroy>

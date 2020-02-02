@@ -1,0 +1,13 @@
+package methodsEg;
+
+public class VarArg {
+void sum(int arr[])
+{
+	System.out.println("-- show(int[])");
+	System.out.println("Length :" + arr.length);
+	int s=0;
+	for (int a : arr) {
+	s = s + a;
+}
+}
+}

@@ -1,0 +1,22 @@
+package core_practice;
+
+import java.util.*;
+
+public class listEg {
+public static void main(String[] args) {
+	List data = new ArrayList();
+	data.add("hi");
+	data.add("hello");
+	System.out.println(data);
+	ListIterator<E> it =data.listIterator();
+	while(it.hasNext())
+	{	
+	
+		int index = it.nextIndex();
+		Object obj= it.next();
+		
+		System.out.println(index +"\t" +obj);
+	}
+	
+}
+}

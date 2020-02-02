@@ -1,0 +1,19 @@
+package threadspractise;
+
+public class Lab1298 {
+	public static void main(String[] args) 
+	{
+//		MyThread t1 = new MyThread();
+//		MyThread t2 = new MyThread(); 
+		//lab1299
+//		MyThreadImp t1 = new MyThreadImp();
+//		MyThreadImp t2 = new MyThreadImp();
+		//1300
+//		MyThread t1 = new MyThread("Visu");
+//		MyThread t2 = new MyThread("JCL");
+		//lab-1301
+		MyThreadImp t1 = new MyThreadImp("one");
+		MyThreadImp t2 = new MyThreadImp("Two");
+		
+		}
+}

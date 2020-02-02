@@ -1,0 +1,10 @@
+package equals;
+
+public class testCodility {
+	public static void main(String[] args) {
+		codility1 obj=new codility1();
+		obj.solution(4,3);
+	}
+
+	
+}

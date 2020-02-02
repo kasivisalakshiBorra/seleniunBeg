@@ -1,0 +1,13 @@
+package core_practice;
+import java.lang.util.*;
+
+public class collections1{
+	
+	public static void main(String[] args)
+	{
+		list data = new Arraylist();
+		
+	}
+	
+	
+}

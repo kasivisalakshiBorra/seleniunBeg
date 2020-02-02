@@ -1,0 +1,19 @@
+package methodsEg;
+
+public class Student {
+//int age=18;
+void setage(int age)
+{
+	System.out.println("hello in student class");
+//	if(age<18)
+//	return  ;	
+//	this.age=age;
+	
+}
+
+int show(int age)
+{
+	System.out.println(" Int return type");
+	return age;
+}
+}

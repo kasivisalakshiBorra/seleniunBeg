@@ -1,0 +1,20 @@
+package core_practice;
+import java.util.*;
+
+public class collections1{
+	
+	public static void main(String[] args)
+	{
+//		Collection<String> data = new ArrayList<>();
+	//	ArrayList data =new ArrayList();
+		LinkedList data=LinkedList();
+		System.out.println("Checking size:" +data.size());
+		System.out.println("Checking :" +data.isEmpty());
+		data.add("Ram");
+		data.add("nancy");
+		data.add("Jhon");
+		System.out.println(data);
+		System.out.println("Checking size:" +data.size());
+		System.out.println("Checking :" +data.isEmpty());	
+	}
+}

@@ -1,0 +1,20 @@
+package core_practice;
+
+public class FibonacciEg {
+	
+	public static void main(String[] args) {
+		//1,1,2
+		
+		int num = 10;
+		int sum=0,temp;
+
+		for(int i=1;i<=num; i++)
+		{
+		temp =i-1;
+		sum =i+temp;
+		
+		}
+		System.out.print(sum);
+	}
+
+}

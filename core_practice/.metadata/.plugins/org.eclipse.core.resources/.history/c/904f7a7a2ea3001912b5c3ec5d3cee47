@@ -1,0 +1,22 @@
+package core_practice;
+
+public class ArrayEx {
+
+public static void main(String[] args) {
+	int a;
+	
+	int b[];
+	b = new int[5];
+	
+	int c[] = new int[5];
+	
+	b[0]=10;
+	
+	b[1]=100;
+	
+	System.out.println("Array B   "+b.toString());
+	
+	
+	
+}
+}

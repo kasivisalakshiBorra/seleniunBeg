@@ -1,0 +1,15 @@
+package core_practice;
+
+import java.util.Vector;
+
+public class VectorEg {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student(10, "Visala");
+		String msg = s1.displayDetails();
+		
+		System.out.println(msg);
+		
+	}
+}

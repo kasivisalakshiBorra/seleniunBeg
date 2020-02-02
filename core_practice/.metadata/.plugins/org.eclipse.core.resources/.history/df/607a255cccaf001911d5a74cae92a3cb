@@ -1,0 +1,12 @@
+package methodsEg;
+
+public class Test {
+public static void main(String[] args) {
+	
+	HaiEg2 hai = new HaiEg2();
+	HelloEg1 H1 = new HelloEg1();
+	System.out.println("main begin :"+hai.a);
+	
+	
+}
+}

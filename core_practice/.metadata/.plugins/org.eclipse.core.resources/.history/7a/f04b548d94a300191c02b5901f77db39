@@ -1,0 +1,21 @@
+package core_practice;
+import java.util.*;
+public class TreesetEg {
+
+	public static void main(String[] args) {
+		HashSet set = new HashSet();
+		set.add("Hi");
+		set.add("Hi");
+		set.add("Cello");
+		set.add("AAAA");
+		System.out.println(set);
+		Iterator it = set.iterator();
+		while(it.hasNext())
+		{
+			Object obj = it.next();
+			System.out.println(obj);
+		}
+	}
+	
+	
+}

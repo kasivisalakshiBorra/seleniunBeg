@@ -1,0 +1,26 @@
+package core_practice;
+
+public class Student {
+	int studintId;
+	String studentName;
+	public Student(int studintId,String studentName) {
+		this.studintId=studintId;
+		this.studentName=studentName;
+	}
+	
+	public String displayDetails() {
+		return "Name  :"+this.studentName+" ID : "+this.studintId;
+	}
+	
+	/*public Student(int sid,String sname) {
+	studintId=sid;
+		
+	}*/
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Name  :"+studentName+" ID : "+studintId;
+	}
+
+}

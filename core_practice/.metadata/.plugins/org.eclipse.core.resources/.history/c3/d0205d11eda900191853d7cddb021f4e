@@ -1,0 +1,16 @@
+package core_practice;
+
+public class RemoveWhiteSpacesString {
+
+	public static void main(String[] args) {
+		
+		String Str ="Hello   Engin     eer Ho w  Are y ou";
+		String Str2= Str.replaceAll("    ", "");
+		System.out.println(Str2);
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package core_practice;
+
+public class DuplicateString {
+
+	public static void main(String[] args) {
+		
+		String str = "visalal";int count =0;
+		char Chars[] = str.toCharArray();
+		System.out.println("Enter a Duplicate value");
+		for(int i=0;i<=Chars.length-1;i++) {
+			for(int j=i+1;j<=Chars.length-1;j++)
+			{
+				if(Chars[i]==Chars[j])
+				{
+					System.out.println(Chars[j]);
+				count++;//count =count+1;
+					
+					System.out.println("The value :  " +Chars[j]  + "count:  " +count);
+					break;
+				}
+			}
+		}
+	}
+}

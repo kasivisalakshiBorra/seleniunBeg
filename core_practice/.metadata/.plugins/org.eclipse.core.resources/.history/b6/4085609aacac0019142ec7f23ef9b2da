@@ -1,0 +1,12 @@
+package methodsEg;
+
+public class Student {
+int age=18;
+void setage(int age)
+{
+	if(age<18)
+	return ;
+	this.age=age;
+	
+}
+}
