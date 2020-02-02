@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	hi.display();
 	System.out.println("Hi i am visala");
 	System.out.println("Adding secound line");
+	System.out.println("Adding third line");
 }
 
 }
