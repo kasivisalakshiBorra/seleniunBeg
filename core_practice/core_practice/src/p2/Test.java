@@ -5,8 +5,8 @@ public class Test {
 	public void add()
 	{
 
-	int a,b,d
-		d=a+b;
+	int a,b,d;
+		//d=a+b;
 		
 
 	}
