@@ -7,8 +7,11 @@ public static void main(String[] args) {
 	hi.display();
 	System.out.println("Hi i am visala");
 	System.out.println("Adding secound line");
+<<<<<<< master
 	System.out.println("Adding third line");
 	System.out.println("W##W#W");
+=======
+>>>>>>> 7bc5c7d Added third line
 }
 
 }
