@@ -5,8 +5,9 @@ public class Test {
 	public void add()
 	{
 
-	int x,y,p;
-		p=x+y;
+	int a,b,d
+		d=a+b;
+		
 
 	}
 public static void main(String[] args) {
