@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.790479">
+<testcase classname="login page of Application" name="Verification of login functionality with invalid credential" time="0.643846">
+<failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\geckodriver-v0.21.0-win64\geckodriver.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:141)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:158)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)&#13;&#10;&#9;at SeleniumTest.SeleniumTest.openbrowser(SeleniumTest.java:22)&#13;&#10;&#9;at ✽.Given Open the Firefox and launch the application(LoginFeature.feature:4)&#13;&#10;"><![CDATA[Given Open the Firefox and launch the application...........................failed
+When Enter the Username "TEXTUSER" and Password "TESTPASSWORD"..............skipped
+Then Click login button.....................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\geckodriver-v0.21.0-win64\geckodriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:141)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:158)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at SeleniumTest.SeleniumTest.openbrowser(SeleniumTest.java:22)
+	at ✽.Given Open the Firefox and launch the application(LoginFeature.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="login page of Application" name="Verification of login functionality with invalid credential 2" time="0.052256">
+<failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\chromedriver.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)&#13;&#10;&#9;at SeleniumTest.SeleniumTest.openChromebrowser(SeleniumTest.java:47)&#13;&#10;&#9;at ✽.Given Open the Chrome and launch the application(LoginFeature.feature:15)&#13;&#10;"><![CDATA[Given Open the Chrome and launch the application............................failed
+When Enter the Username "TEXTUSER" and Password "TESTPASSWORD"..............skipped
+Then Click login button.....................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at SeleniumTest.SeleniumTest.openChromebrowser(SeleniumTest.java:47)
+	at ✽.Given Open the Chrome and launch the application(LoginFeature.feature:15)
+]]></failure>
+</testcase>
+<testcase classname="login page of Application" name="Verification of login functionality with invalid credential 3" time="0.094377">
+<failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\IEDriverServer_32.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;&#10;&#9;at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:32)&#13;&#10;&#9;at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;&#10;&#9;at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:291)&#13;&#10;&#9;at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:160)&#13;&#10;&#9;at SeleniumTest.SeleniumTest.ieBrowser(SeleniumTest.java:57)&#13;&#10;&#9;at ✽.Given Open the IE and launch the application(LoginFeature.feature:26)&#13;&#10;"><![CDATA[Given Open the IE and launch the application................................failed
+When Enter the Username "TEXTUSER" and Password "TESTPASSWORD"..............skipped
+Then Click login button.....................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium_Standard\51611528\IEDriverServer_32.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:32)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:291)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:160)
+	at SeleniumTest.SeleniumTest.ieBrowser(SeleniumTest.java:57)
+	at ✽.Given Open the IE and launch the application(LoginFeature.feature:26)
+]]></failure>
+</testcase>
+</testsuite>

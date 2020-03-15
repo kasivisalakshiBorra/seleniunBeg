@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verification of reset button with numbers of credential",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button-with-numbers-of-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18908991870,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "SeleniumTest.openbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128929179,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username \"Test\" and Password \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 20
+                },
+                {
+                  "val": "Test",
+                  "offset": 40
+                }
+              ],
+              "location": "SeleniumTest.enter_the_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30720,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Reset the credential",
+            "match": {
+              "location": "SeleniumTest.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verification of reset button with numbers of credential",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button-with-numbers-of-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16209337755,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "SeleniumTest.openbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183191016,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username \"Testt\" and Password \"Testt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testt",
+                  "offset": 20
+                },
+                {
+                  "val": "Testt",
+                  "offset": 41
+                }
+              ],
+              "location": "SeleniumTest.enter_the_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23893,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Reset the credential",
+            "match": {
+              "location": "SeleniumTest.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "Guru.feature"
+  }
+]
